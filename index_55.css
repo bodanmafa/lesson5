@@ -1,0 +1,38 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+}
+.back-block {
+	display: grid;
+	width: 50%;
+	height: auto;
+	grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));  auto-fill - auto-fit 
+	margin: auto;
+	margin-top: 100px;
+}
+.back-block h5 {
+	margin-top: 30px;
+	margin-left: 25px;
+	font-family: sans-serif;
+}
+.back-block input {
+	margin-left: 25px;
+	margin-top: 10px;
+	width: 140px;
+	border-radius: 5px;
+	background-color: #ADA9A8;
+	border: none;
+	height: 20px;
+}
+.button_c button {
+	margin-left: 25px;
+	width: 146px;
+	height: 23px;
+	margin-top: 76px;
+	background-color: red;
+	color: white;
+	border-radius: 5px;
+	border: none;
+}
